@@ -1,0 +1,214 @@
+/*==========defult css==========*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.fixed-with{
+	width: 90%;
+	margin: auto;
+}
+body{
+	font-family: arial time roman;
+}
+
+/*==========header-section css==========*/
+.header-section{
+	width: 100%;
+	height: 91px;
+}
+.header-left{
+	float: left;
+	width: 30%;
+	
+
+}
+.header-left img{
+	margin: 29px 0;
+	width: 150px;
+}
+
+.header-right{
+	float: right;
+	width: 60%;
+	text-align: right;
+}
+.header-right ul{
+	list-style-type: none;
+}
+.header-right ul li{
+	display: inline-block;
+	margin: 35px 12px;
+}
+.header-right ul li a{
+	color: gray;
+	text-decoration: none;
+	padding: 35px 9px;
+	transition: 1s;
+}
+.header-right ul li a:hover{
+	background-color: #C1C3C5;
+}
+
+/*==========Banner css==========*/
+.banner{}
+.banner img{
+	width: 100%;
+	margin: auto;
+	height: 500px;
+
+}
+
+
+/*==========main-1 css==========*/
+.content-1{
+	width: 90%;
+	margin: auto;
+	margin-top: 35px;
+
+}
+.span-1{
+	color: gray;
+	font-size: 20px;
+}
+.content-1 h1{
+		margin: 25px 0;
+		font-size: 30px;
+}
+.content-1 p{
+	margin-bottom: 15px;
+	text-align: justify;
+
+}
+.span-2{}
+.span-2 a{
+	display: block;
+	text-decoration: none;
+	color: gray;
+	font-size: 18px;
+}
+
+/*==========main-2 css==========*/
+.part-1{
+	margin-top: 50px;
+}
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+.part-left{
+	width: 48%;
+	float: left;
+
+}
+.part-right{
+	width: 48%;
+	float: right;
+}
+.part-1 img{
+	width: 100%;
+}
+.part-1 span{
+	color: gray;
+}
+.part-1 h1{
+	margin: 26px 0;
+}
+.part-1 p{
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+
+/*====================Sign up Section====================*/
+.sign-up{
+	width: 100%;
+	background-color: #E9EBEC;
+	padding: 60px 0;
+	display: block;
+	clear: both;
+}
+.input{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+}
+.sign-up p{
+	font-size: 30px;
+	display: block;
+}
+.sign-up form{
+	display: block;
+}
+.sign-up input{
+	border: none;
+	background: none;
+	text-align: left;
+	font-size: 15px;
+	margin: 20px 300px 10px 0;
+	outline: none;
+}
+
+hr{
+	width: 500px;
+	margin: 0 auto;
+}
+
+/*====================button Section====================*/
+.joy{
+	width: 100%;
+	text-align: center;
+}
+
+.joy1{
+	margin: 46px 0;
+}
+button{
+	padding: 25px 43px;
+	background: #dddddd;
+	border-radius: 5px;
+}
+b{
+	font-size: 20px;
+}
+/*=======================Footer Section+===============*/
+footer{
+	margin-top: 40px;
+	width: 100%;
+	height: 70px;
+	background-color: #370617;
+}
+.footer-left{
+	float: left;
+	width: 50%;
+	height: auto;
+	padding: 25px 0px;
+}
+.footer-left p{
+	color: white;
+	font-size: 18px;
+}
+.footer-right{
+	float: right;
+	width: 50%;
+	height: auto;
+}
+.footer-right ul{
+	text-align: right;
+}
+.footer-right ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 20px;
+	color: white;
+}
+.footer-right ul li a{
+	color: white;
+	font-size: 25px;
+}
+.footer-right ul li a:hover{
+	background-color: gray;
+}
+
+
+
